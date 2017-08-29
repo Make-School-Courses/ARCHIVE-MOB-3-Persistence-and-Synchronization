@@ -3,13 +3,22 @@
 ## Course Overview
 
 
-## Objectives & Competencies
+## Objectives
 
-- Learn about various persistence technologies in iOS (CoreData, Realm, NSUserDefaults, Keychain, NSCoding)
+- Learn about persistence technologies in iOS (CoreData, Realm, NSUserDefaults, Keychain, NSCoding)
 - Store and retrieve information locally on your iOS device.
-- Synchronize information from a server to your local database
 
-## Project
+## Competencies
+
+Should be able to:
+
+- Compare and contrast various persistence options such as Core Data, Realm, NSCoder, UserDefaults, Keychain and chose the best options for their project.
+- Deploy, manage and use a relational database
+- Write sql queries and perform joins
+- Implement authentication in their apps 
+- Synchronize information from a server to a local database.
+
+## Projects
 
 All students must build:
 
@@ -19,12 +28,15 @@ All students must build:
 
 - #### Week 1
     - [Intro to Persistence Technologies in iOS](00-Intro-to-Persistence-Technologies)
-    - [UserDefaults, Keychain and NSCoding](01-UserDefaults-Keychain-NSCoding)
+    - [Databases - Intro to Database Design](02-Intro-to-Database-Design)
+    - [Databases - Queries]()
 
 - #### Week 2
+    - [UserDefaults, Keychain and NSCoding](01-UserDefaults-Keychain-NSCoding)
     - [FileSystem](02-FileSystem)
     
 - #### Week 3
+    - [Project  - Contractor App - Music app](03-Project-Contractor-App)
     - [CoreData - Intro](03-Intro-to-CoreData)
     - [CoreData - NSManagedObject, NSManagedObjectContext](04-CoreData-NSManagedObject)
     - [CoreData - Fetching Persisted Data](05-Intro-to-CoreData)
@@ -32,12 +44,14 @@ All students must build:
 - #### Week 4
     - [CoreData - NSFetchedResultsController](06-Intro-to-CoreData)
     - [CoreData - Migrations](07-Intro-to-CoreData)
-    
+    - [Project  - Shared Notes](08-Project-Shared-Notes)
 - #### Week 5-6
-    - [Project Time](08-Project-Time)
+    - [Project Time](08-Custom-Project)
 
 ## Evaluations
 
 To pass the course, students will have:
 
     1. Completed all challenges.
+    2. Completed the (2) class projects
+    3. Spec'ed out and completed your custom project
