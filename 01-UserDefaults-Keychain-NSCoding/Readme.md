@@ -87,3 +87,8 @@ Use NSCoding when main goal of persistence in your App is
 to store the current state of the application
 If you additionally want to create queries, need migrations,
 etc, there are better solutions (e.g., CoreData)
+
+
+## Challenges
+
+1. 

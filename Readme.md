@@ -28,25 +28,27 @@ All students must build:
 
 - #### Week 1
     - [Intro to Persistence Technologies in iOS](00-Intro-to-Persistence-Technologies)
-    - [Databases - Intro to Database Design](02-Intro-to-Database-Design)
-    - [Databases - Queries]()
 
 - #### Week 2
+    - [Project - Document Management](Project-Document-Management)
     - [UserDefaults, Keychain and NSCoding](01-UserDefaults-Keychain-NSCoding)
     - [FileSystem](02-FileSystem)
     
 - #### Week 3
-    - [Project  - Contractor App - Music app](03-Project-Contractor-App)
     - [CoreData - Intro](03-Intro-to-CoreData)
     - [CoreData - NSManagedObject, NSManagedObjectContext](04-CoreData-NSManagedObject)
     - [CoreData - Fetching Persisted Data](05-Intro-to-CoreData)
 
 - #### Week 4
-    - [CoreData - NSFetchedResultsController](06-Intro-to-CoreData)
-    - [CoreData - Migrations](07-Intro-to-CoreData)
+    - [Databases - Intro to Database Design](02-Intro-to-Database-Design)
+    - [Databases - SQL](03-SQL)
+    - [Databases - Migrations](04-Migrations)
     - [Project  - Shared Notes](08-Project-Shared-Notes)
-- #### Week 5-6
+    
+- #### Week 5
     - [Project Time](08-Custom-Project)
+    
+- #### Week 6
 
 ## Evaluations
 

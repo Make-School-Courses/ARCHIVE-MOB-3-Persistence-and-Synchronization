@@ -10,6 +10,7 @@ We will persist this list so each time a user opens the app, we will have our vo
 - **Chart**
     - score - total of upvotes/downvotes
 
+
 ## Milestones
 
 - [x] User route to create, update

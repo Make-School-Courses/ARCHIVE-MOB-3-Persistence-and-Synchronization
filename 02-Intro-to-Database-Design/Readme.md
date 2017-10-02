@@ -97,3 +97,26 @@ ORM stands for Object Relational Mapper. They create a representation of your da
 
 For python and flask we will be using **SQLAcademy**.
 
+### Using POSTICO 
+
+We will be using the Postico as a visual tool for our database.
+
+Click this to download:
+
+[Postico Dowload Link](https://eggerapps.at/postico/download)
+
+
+## Challenges
+
+### Creating tables and entries
+1. 
+
+    a. Create a *products* table that has the following columns:
+        - name
+        - type
+
+    b. Run this script to create a few products:
+  
+
+
+

@@ -109,4 +109,3 @@ if let documentDirectory: URL = urls.first {
 
 - Primarily when storing/caching binary data such as images/ audio/ video
 - Can also be used to store serialized Objects, allows to persist objects and Object Graphs from your application
-
