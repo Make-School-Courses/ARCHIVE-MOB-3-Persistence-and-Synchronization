@@ -7,11 +7,6 @@
 - Filesystem
 - Advanced Persistence Technologies - CoreData, Realm etc.
 
-## NSUserDefaults
-## Keychain
-## Filesystem
-## NSCoding
-
 
 ## Advanced Persistence Technologies
 

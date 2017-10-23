@@ -31,12 +31,12 @@ All students must build:
 
 - #### Week 1
     - [Intro to Persistence Technologies in iOS](00-Intro-to-Persistence-Technologies)
-    - [UserDefaults, Keychain and NSCoding](01-UserDefaults-Keychain-NSCoding)
-    - [Dependency Management](02-Dependency-Management)
+    - [Dependency Management](01-Dependency-Management)
+    - [UserDefaults, Keychain and NSCoding](02-UserDefaults-Keychain-NSCoding)
     
 - #### Week 2
     - [Project - Document Management](Project-Document-Management)
-    - [FileSystem](02-FileSystem)
+    - [FileSystem](03-FileSystem)
     - [Layout Essentials](06-Layout-Essentials)
     
 - #### Week 3
