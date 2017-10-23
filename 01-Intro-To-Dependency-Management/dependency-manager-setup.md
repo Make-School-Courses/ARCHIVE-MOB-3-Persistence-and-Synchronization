@@ -61,8 +61,6 @@ Create a Package.swift containing all your dependencies
 run ```swift build```
 
 ## Libraries we are going to use
-- Kingfisher - image caching
+- Zip
 - Gloss or any other json parsing library
 - KeychainSwift
-
-# Next - [Into to Persistence](../04-Intro-to-Persistence/Readme.md)
