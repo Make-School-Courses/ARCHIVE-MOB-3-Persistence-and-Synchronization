@@ -31,7 +31,7 @@ All students must build:
 
 - #### Week 1
     - [Intro to Persistence Technologies in iOS](00-Intro-to-Persistence-Technologies)
-    - [Dependency Management](01-Dependency-Management)
+    - [Dependency Management](01-Intro-To-Dependency-Management)
     - [UserDefaults, Keychain and NSCoding](02-UserDefaults-Keychain-NSCoding)
     
 - #### Week 2
