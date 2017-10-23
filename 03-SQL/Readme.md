@@ -34,4 +34,14 @@ select * from products where name='Coke'
 select * from products where id<=2
 ```
 
+## Creating tables
+
+## Creating a row/entry
+
+
+
+## Resources
+
+[SQL Tutorials - W3School](https://www.w3schools.com/sql/)
+
 

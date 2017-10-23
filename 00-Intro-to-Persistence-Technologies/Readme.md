@@ -5,7 +5,6 @@
 - NSUserDefaults
 - Keychain
 - Filesystem
-- Encoding/Decoding
 - Advanced Persistence Technologies - CoreData, Realm etc.
 
 ## NSUserDefaults
@@ -13,8 +12,8 @@
 ## Filesystem
 ## NSCoding
 
-## Advanced Persistence Technologies
 
+## Advanced Persistence Technologies
 
 ##### Core Data, Realm, SQLite
 - Querying / selecting a subset of object graph
@@ -22,14 +21,10 @@
 - Simple versioning of data model
 
 
-## Summary
-- UserDefaults is the easiest way to persist a small amount of
-information in an application
-- Security relevant information should be stored in the Keychain
-- Apps run in a sandbox where they have access to their bundle and
-different types of directories
-- The entire object graph of an application can be persisted using
-- NSCoding and NSArchiver; good solution if you merely need to store
-the state of your app and don’t need queries or migrations
+## Secure(Sensitive) data storage
+- Keeping sensitive information in iOS
 
-## Resources
+## FileSystem
+- Visualize the iOS filesystem and leverage it to store information
+- Understand when storing information using the raw filesystem is a better option
+

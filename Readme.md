@@ -1,22 +1,25 @@
-# iOS103 Persistence & Synchronization
+# MOB3 Persistence & Synchronization
 
 ## Course Overview
 
+We will be learning about persistence technologies in iOS. We will cover a variety of ways of persisting and transforming data, and a few common use cases in the iOS ecosystem.
 
 ## Objectives
 
-- Learn about persistence technologies in iOS (CoreData, Realm, NSUserDefaults, Keychain, NSCoding)
+- Learn about persistence technologies in iOS (NSUserDefaults, Keychain, NSCoding, CoreData, Realm)
 - Store and retrieve information locally on your iOS device.
+- Store and retrieve sensitive information in iOS.
+- Discover, learn and understand the iOS filesystem.
 
 ## Competencies
 
 Should be able to:
 
 - Compare and contrast various persistence options such as Core Data, Realm, NSCoder, UserDefaults, Keychain and chose the best options for their project.
+- Implement authentication in their apps
+- Synchronize information from a server to a local database.
 - Deploy, manage and use a relational database
 - Write sql queries and perform joins
-- Implement authentication in their apps 
-- Synchronize information from a server to a local database.
 
 ## Projects
 
@@ -28,11 +31,13 @@ All students must build:
 
 - #### Week 1
     - [Intro to Persistence Technologies in iOS](00-Intro-to-Persistence-Technologies)
-
+    - [UserDefaults, Keychain and NSCoding](01-UserDefaults-Keychain-NSCoding)
+    - [Dependency Management](02-Dependency-Management)
+    
 - #### Week 2
     - [Project - Document Management](Project-Document-Management)
-    - [UserDefaults, Keychain and NSCoding](01-UserDefaults-Keychain-NSCoding)
     - [FileSystem](02-FileSystem)
+    - [Layout Essentials](06-Layout-Essentials)
     
 - #### Week 3
     - [CoreData - Intro](03-Intro-to-CoreData)
