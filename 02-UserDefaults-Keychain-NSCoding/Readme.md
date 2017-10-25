@@ -61,6 +61,11 @@ graph
 Decoding: Creating an object graph from a binary/textual
 representation
 
+**Implementing NSCoding**
+
+To Encode/Decode, your class has to be NSCoding compliant. That means it has to conform to NSCoding. This gives you two methods that correspond to decoding an object, and encoding it.
+
+
 ### Step 1: Implement NSCoding
 
 ```swift
@@ -89,7 +94,7 @@ class Movie: NSObject, NSCoding {
 
 ```
 
-### Step 2: User Archiver
+### Step 2: User Archiver - Archiving to filesystem
 
 Archive
 
@@ -117,7 +122,7 @@ etc, there are better solutions (e.g., CoreData)
 1. 
 
 Interate Cocoapods into a project(Trip Planner)
-Download KeychainSwift to use the keychain:
+Download KeychainSwift though cocoapods to use the keychain:
 
 [KeychainSwift Link](https://github.com/evgenyneu/keychain-swift#keychain_access_groups)
 
