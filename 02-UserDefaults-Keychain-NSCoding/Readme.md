@@ -5,6 +5,13 @@
 - Brainstorm use cases for persisting informatin with UserDefaults in iOS
 - Learn about storing sensitive information with Keychain in iOS
 
+## Class Materials
+
+Slides:
+
+[Intro To Persistence - Slides](intro-to-persistence.key)
+
+
 ## UserDefaults
 
 UserDefaults allows to store Strings, Numbers, Dates, Data and
@@ -98,6 +105,7 @@ let unarchivedMovies = NSKeyedUnarchiver.unarchiveObjectWithFile(
 ```
 
 ### When to use NSCoding
+
 Use NSCoding when main goal of persistence in your App is
 to store the current state of the application
 If you additionally want to create queries, need migrations,
@@ -107,6 +115,11 @@ etc, there are better solutions (e.g., CoreData)
 ## Challenges
 
 1. 
+
+Interate Cocoapods into a project(Trip Planner)
+Download KeychainSwift to use the keychain:
+
+[KeychainSwift Link](https://github.com/evgenyneu/keychain-swift#keychain_access_groups)
 
 a. Using the trip planner app from MOB2, only bring up the login screen if the user hasn't logged in. If they have, take them straight to the list of trips.
 

@@ -1,0 +1,6 @@
+framework module Pods_AlamofirePlayground {
+  umbrella header "Pods-AlamofirePlayground-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -6,7 +6,7 @@ We will be learning about persistence technologies in iOS. We will cover a varie
 
 ## Objectives
 
-- Learn about persistence technologies in iOS (NSUserDefaults, Keychain, NSCoding, CoreData, Realm)
+- Learn about persistence technologies in iOS (UserDefaults, Keychain, NSCoding, CoreData, Realm)
 - Store and retrieve information locally on your iOS device.
 - Store and retrieve sensitive information in iOS.
 - Discover, learn and understand the iOS filesystem.
@@ -45,15 +45,19 @@ All students must build:
     - [CoreData - Fetching Persisted Data](05-Intro-to-CoreData)
 
 - #### Week 4
-    - [Databases - Intro to Database Design](02-Intro-to-Database-Design)
-    - [Databases - SQL](03-SQL)
-    - [Databases - Migrations](04-Migrations)
-    - [Project  - Shared Notes](08-Project-Shared-Notes)
+    - [Project - Shared Notes](08-Project-Shared-Notes)
+    - [Getting started in Ruby]()
+    - [Intro to Backend in Ruby on Rails]()
+    - [Model View Controller in Rails]()
+    - [Models and ActiveRecord]()
     
 - #### Week 5
-    - [Project Time](08-Custom-Project)
+    - [Controllers and Views]()
+    - [Databases - Intro to Database Design & SQL](02-Intro-to-Database-Design)
+    - [Databases - Migrations](04-Migrations)
     
 - #### Week 6
+    - [Project Time](08-Custom-Project)
 
 ## Evaluations
 

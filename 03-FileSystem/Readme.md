@@ -6,6 +6,7 @@
 ## Filesystem
 
 Apps can only read/write files within their sandbox
+
 ![App structure](app-structure.png)
 
 ### Important Directories
