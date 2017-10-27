@@ -3,6 +3,7 @@
 ## Objectives
 - Identify the parts of the filesystem in an iOS app
 - List the important parts of an iOS app filesystem
+- Practice accessing files from the filesystem
 
 ## Filesystem
 
