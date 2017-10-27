@@ -1,7 +1,8 @@
 # FileSystem
 
 ## Objectives
-
+- Identify the parts of the filesystem in an iOS app
+- List the important parts of an iOS app filesystem
 
 ## Filesystem
 
@@ -11,7 +12,9 @@ Apps can only read/write files within their sandbox
 
 ### Important Directories
 
-```
+**Main App Bundle**
+
+```swift
 <Application_Home>/AppName.app
 ```
 
@@ -23,7 +26,9 @@ Xcode) and cannot be modified at runtime!
 Bundle contains binary along with resource files
 
 
-```
+**Documents Directory**
+
+```swift
 <Application_Home>/Documents/
 ```
 
@@ -33,6 +38,9 @@ regenerated)
 
 This directory is backed up with iTunes Backups and it can be
 made available to iTunes users via Filesharing
+
+
+**Tempory Directory**
 
 ```swift
 <Application_Home>/tmp
@@ -44,25 +52,32 @@ permanently.
 You are responsible for removing files from this
 directory when they are no longer needed.
 
-All files in the Library directory (excluding the Library/Caches
-directory) are backed up to iTunes by default. You can change
-this by using a file attribute
+
+**Library Directory**
 
 ```swift
 <Application_Home>/Library/Caches
 ```
 
 This folder should be used to store cached information (e.g.
-profile pictures that have been downloaded)
-iOS will remove file from this directory when it needs to free
+profile pictures that have been downloaded).
+
+iOS will remove files from this directory when it needs to free
 disk space, your app needs to be able to handle deletion of
-file in the caches directory
+file in the caches directory.
 
-The content of this folder is not backed up to iTunes
+*Note*
 
+- The content of this folder is not backed up to iTunes.
 
-### Accessing files
+- All files in the Library directory (excluding the Library/Caches
+directory) are backed up to iTunes by default. You can change
+this by using a file attribute
+
+## Accessing files
+
 Accessing files within the application bundle:
+
 ```swift
 let path = Bundle.main.path(forResource: "file1", ofType: ".jpg")
 if let path = path {
@@ -74,7 +89,13 @@ Short form:
 UIImage(named: "file1.jpg")
 ```
 
-#### Accessing files within the documents directory:
+### Accessing files within the documents directory:
+#### The FileManager
+
+Its a class that allows us to interact with the filesystem.
+
+#### Using the FileManager
+
 ```swift
 let fileManager = FileManager.default
 let urls = fileManager.urls(for: .documentDirectory, in: .userDomainMask)
@@ -105,8 +126,24 @@ if let documentDirectory: URL = urls.first {
     data.write(to: documentURL, options: .atomic)
 }
 ```
+Visit the documentation page for info on how to access specific directories in the filesystem
+
+[FileManger Documentation](https://developer.apple.com/documentation/foundation/filemanager)
+
 
 ### When to use filesystem
 
 - Primarily when storing/caching binary data such as images/ audio/ video
 - Can also be used to store serialized Objects, allows to persist objects and Object Graphs from your application
+
+
+## Challenges
+
+Clone/Download the repo below to get started:
+
+[Bundle Challenge - Robo Profiles](https://github.com/Product-College-Labs/RoboProfiles)
+
+
+## Resources
+
+[FileManger Documentation](https://developer.apple.com/documentation/foundation/filemanager)
