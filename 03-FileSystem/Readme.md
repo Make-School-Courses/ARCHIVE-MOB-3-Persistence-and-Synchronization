@@ -41,7 +41,7 @@ This directory is backed up with iTunes Backups and it can be
 made available to iTunes users via Filesharing
 
 
-**Tempory Directory**
+**Temporary Directory**
 
 ```swift
 <Application_Home>/tmp
@@ -55,6 +55,12 @@ directory when they are no longer needed.
 
 
 **Library Directory**
+
+```swift
+<Application_Home>/Library
+```
+Used to store files that you don't want to expose to the user
+
 
 ```swift
 <Application_Home>/Library/Caches
