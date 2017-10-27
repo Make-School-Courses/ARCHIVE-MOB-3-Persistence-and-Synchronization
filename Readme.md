@@ -46,10 +46,10 @@ All students must build:
 
 - #### Week 4
     - [Project - Shared Notes](08-Project-Shared-Notes)
-    - [Getting started in Ruby]()
-    - [Intro to Backend in Ruby on Rails]()
-    - [Model View Controller in Rails]()
-    - [Models and ActiveRecord]()
+    - [Getting started in Ruby](10-Basic-Ruby)
+    - [Intro to Backend in Ruby on Rails](11-Intro-To-Ruby-On-Rails)
+    - [Model View Controller in Rails](12-MVC-in-Rails)
+    - [Models and ActiveRecord](13-Active-Record)
     
 - #### Week 5
     - [Controllers and Views]()
@@ -65,4 +65,4 @@ To pass the course, students will have:
 
     1. Completed all challenges.
     2. Completed the (2) class projects
-    3. Spec'ed out and completed your custom project
+    3. Completed your custom project
