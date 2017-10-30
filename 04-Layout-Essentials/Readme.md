@@ -172,6 +172,12 @@ Build the following in interface builder in Xcode. You can clone the repo below 
 
 ![2](2.png)
 
+3. Stack the lions vertically and equally
+![Magestic Lion 1](magestic1.png)
+
+4. Stack the lions vertially with the top lion bigger than the rest
+![Magestic Lion 1](magestic2.png)
+
 3. Two UILabels stacked together. The top bold label is a multiline label, the bottom is only one line. When shrunk, the top label shrinks its text to accomodate.
 
 ![Resizable Labels](ResizableLabels.gif)
