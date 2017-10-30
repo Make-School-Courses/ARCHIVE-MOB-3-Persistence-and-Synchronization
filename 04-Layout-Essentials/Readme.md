@@ -178,6 +178,10 @@ Build the following in interface builder in Xcode. You can clone the repo below 
 4. Stack the lions vertially with the top lion bigger than the rest
 ![Magestic Lion 1](magestic2.png)
 
-3. Two UILabels stacked together. The top bold label is a multiline label, the bottom is only one line. When shrunk, the top label shrinks its text to accomodate.
+5.Stack an image on the left and two vertically stacked labels on the right. The top label should grow before the bottom one(gets clipped).
+![Lion Label Stack](LionLabelStack.gif)
+
+
+6. Two UILabels stacked together. The top bold label is a multiline label, the bottom is only one line. When shrunk, the top label shrinks its text to accomodate.
 
 ![Resizable Labels](ResizableLabels.gif)
