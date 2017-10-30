@@ -5,9 +5,6 @@
 In this lesson we will cover:
 - Intermediate AutoLayout (Constraints, Content Hugging Priority, Content Compression Resistence Priority)
 - UIStackViews
-- UIScrollViews
-- UITableViews
-- UICollectionViews
 
 ## Vocabulary
 - Content Hugging Priority
@@ -157,37 +154,24 @@ explicit constraints only when necessary
 How does a stackview know how to size its components?
 
 
-## UIScrollView
-
-Allows to display content that is larger than screen size User can scroll,
-zoom, etc to view the entire content
-
-UITableView and UICollectionView use UIScrollView internally
-
-## UITableView
-
-Use for list content, where amount of elements could be arbitrary large.
-Ideal for uniform content.
-
-
-## UICollectionView
-
-Similar to UITableView but provides flexible, non-linear layout
-
-- Provides default flow layout
-
-- Allows to implement custom layouts
-
-- Layout encapsulates logic for sizing and animating the cells
-
-
 ## Discussion
 
 1. What is the intrinsic content size for a UIView?
-1. When should we use UITableView? UICollectionView or UIScrollView?
 
 ## Challenges
 
-Build the following in interface builder in Xcode:
+Build the following in interface builder in Xcode. You can clone the repo below to get started.
 
-1. 
+[Intermediate AutoLayout Challenges Starter](https://github.com/Product-College-Labs/IntermediateAutoLayout)
+
+1. A Label and a UITextField. Label has a minimum dimension and doesn't get squished. UITextField can grow to fill up the remaining space.
+
+![1](1.png)
+
+2. Same as (1) but the label has a higher priority for growing horizontally instead.
+
+![2](2.png)
+
+3. Two UILabels stacked together. The top bold label is a multiline label, the bottom is only one line. When shrunk, the top label shrinks its text to accomodate.
+
+![Resizable Labels](ResizableLabels.gif)

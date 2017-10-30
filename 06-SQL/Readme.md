@@ -12,6 +12,7 @@ In relational databases, to find data we will need to run a *query* to find our 
 
 
 ## Creating a Database
+
 ## Creating Tables
 
 
@@ -39,10 +40,19 @@ select * from products where name='Coke'
 select * from products where id<=2
 ```
 
-## Creating tables
+## 
 
-## Creating a row/entry
+Often times we need data from two or more tables. Joins are a way to achieve this. 
 
+There are 4 main types of JOINS.
+
+**JOIN (INNER)** - Returns records that have matching values in both tables
+
+**LEFT JOIN (OUTER)** - Return all records from the left table, and the matched records from the right table
+
+**RIGHT JOIN (OUTER)** - Return all records from the right table, and the matched records from the left table
+
+**FULL JOIN (OUTER)** - Return all records when there is a match in either left or right table
 
 
 ## Resources
