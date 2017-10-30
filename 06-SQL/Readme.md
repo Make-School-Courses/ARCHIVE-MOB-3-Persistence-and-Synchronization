@@ -1,8 +1,8 @@
 # SQL
 
-In relational databases, to find data we will need to run a *query* to find our entries in tables.
-
 Most relational databases use SQL which stands for Structured Query Language. It is a language that allows us to write code that will interact with our database.
+
+In relational databases, to find data we will need to run a *query* to find our entries in tables.
 
 ## Objectives
 
