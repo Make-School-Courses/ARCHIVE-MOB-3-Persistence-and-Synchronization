@@ -37,10 +37,12 @@ All students must build:
     
 - #### Week 2
     - [Project - Document Management](Project-Document-Management)
-    - [Layout Essentials](06-Layout-Essentials)
+    - [Layout Essentials](04-Layout-Essentials)
+    - [Intro to Database Design in Relational Databases](05-Intro-to-Database-Design)
+    - [Introduction to SQL](06-SQL)
     
 - #### Week 3
-    - [CoreData - Intro](03-Intro-to-CoreData)
+    - [CoreData - Intro](05-Intro-to-CoreData)
     - [CoreData - NSManagedObject, NSManagedObjectContext](04-CoreData-NSManagedObject)
     - [CoreData - Fetching Persisted Data](05-Intro-to-CoreData)
 
@@ -52,9 +54,8 @@ All students must build:
     - [Models and ActiveRecord](13-Active-Record)
     
 - #### Week 5
-    - [Controllers and Views]()
-    - [Databases - Intro to Database Design & SQL](02-Intro-to-Database-Design)
-    - [Databases - Migrations](04-Migrations)
+    - [Controllers and Views](14-Controller-and-Views)
+    - [Dealing with Databases in Rails](02-Intro-to-Database-Design)
     
 - #### Week 6
     - [Project Time](08-Custom-Project)

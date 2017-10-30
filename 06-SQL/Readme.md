@@ -10,7 +10,12 @@ Most relational databases use SQL which stands for Structured Query Language. It
 - Practice creating tables, entries in POSTgres
 - Practice executing queries with SQL in POSTgres
 
-## Finding entries in a table
+
+## Creating a Database
+## Creating Tables
+
+
+## Finding entries in a table (Running Queries)
 
 #### Get all entries in products table
 ```sql
