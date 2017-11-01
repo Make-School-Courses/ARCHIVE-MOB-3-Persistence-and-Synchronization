@@ -6,7 +6,6 @@
 - Model Data and learn about relationships
 - Learn to diagram your own Schemas
 
-
 ## Vocabulary
 - Entities
 - Schema
@@ -131,13 +130,14 @@ Document based databases are much more flexible in that they allow arbirary data
 ## Challenges
 
 ### Creating tables and entries
+
 1. 
 
     a. Create a *products* table that has the following columns:
         - name
         - type
 
-    b. Run this script to create a few products:
+    b. Create an *orders* table. Orders can have many products and every product belongs to an order
   
 
 

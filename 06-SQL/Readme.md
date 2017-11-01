@@ -10,6 +10,10 @@ In relational databases, to find data we will need to run a *query* to find our 
 - Practice creating tables, entries in POSTgres
 - Practice executing queries with SQL in POSTgres
 
+## Class Resources
+
+[WEB Class on SQL](https://github.com/Product-College-Courses/WEB-3-Advanced-Web-Patterns/tree/master/01.%20SQL)
+
 
 ## Creating a Database
 
