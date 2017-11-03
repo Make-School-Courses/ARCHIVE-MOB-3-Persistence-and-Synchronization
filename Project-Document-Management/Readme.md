@@ -20,6 +20,9 @@ We are given a contract to develop an MVP for a image viewing app. The app shoul
 - [x] Display the thumbnail version of the images in a list (_preview.png)
 - [x] When a thumbnail is tapped, present a detail view controller which will display all the images for that particular collection.
 
+Stretch Challenge:
+
+- [x] Display download and/or unzipping progress
 
 ## Using the Zip Libary
 
