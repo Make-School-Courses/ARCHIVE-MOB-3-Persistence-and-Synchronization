@@ -19,3 +19,18 @@ We are given a contract to develop an MVP for a image viewing app. The app shoul
 - [x] Unzip the zip files containing the images into a temporary store
 - [x] Display the thumbnail version of the images in a list (_preview.png)
 - [x] When a thumbnail is tapped, present a detail view controller which will display all the images for that particular collection.
+
+
+## Using the Zip Libary
+
+Before you start working on the project, you should first list the steps we would take.
+
+We will need to download a zip file from a url and store it in the data container of our iOS app. (We do not have any business with the Bundle).
+
+### Custom Extensions
+
+If you are using URLSession's ```downloadTask``` to download the zip files, you will need to add ```tmp``` as a custom extension to the Zip library:
+
+```swift
+Zip.addCustomFileExtension("tmp")
+```
