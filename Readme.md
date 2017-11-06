@@ -38,26 +38,26 @@ All students must build:
 - #### Week 2
     - [Project - Document Management](Project-Document-Management)
     - [Layout Essentials](04-Layout-Essentials)
-    - [Intro to Database Design in Relational Databases](05-Intro-to-Database-Design)
-    - [Introduction to SQL](06-SQL)
     
 - #### Week 3
+    - [Intro to Database Design in Relational Databases](05-Intro-to-Database-Design)
+    - [Introduction to SQL](06-SQL)
+
+- #### Week 4
     - [CoreData - Intro](05-Intro-to-CoreData)
     - [CoreData - NSManagedObject, NSManagedObjectContext](04-CoreData-NSManagedObject)
     - [CoreData - Fetching Persisted Data](05-Intro-to-CoreData)
 
-- #### Week 4
+- #### Week 5
     - [Project - Shared Notes](08-Project-Shared-Notes)
     - [Getting started in Ruby](10-Basic-Ruby)
     - [Intro to Backend in Ruby on Rails](11-Intro-To-Ruby-On-Rails)
     - [Model View Controller in Rails](12-MVC-in-Rails)
-    - [Models and ActiveRecord](13-Active-Record)
-    
-- #### Week 5
-    - [Controllers and Views](14-Controller-and-Views)
-    - [Dealing with Databases in Rails](02-Intro-to-Database-Design)
     
 - #### Week 6
+    - [Models and ActiveRecord](13-Active-Record)
+    - [Controllers and Views](14-Controller-and-Views)
+    - [Dealing with Databases in Rails](02-Intro-to-Database-Design)
     - [Project Time](08-Custom-Project)
 
 ## Evaluations

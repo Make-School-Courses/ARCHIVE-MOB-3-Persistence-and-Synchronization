@@ -4,7 +4,7 @@ In this project we are going to be working with zip files, images and the files 
 We are given a contract to develop an MVP for a image viewing app. The app should display a list of collages of images and when tapped, display all the images for a particular collection.
 
 **Parameters**
-1. We should first hit the API do get the collections (https://api.myjson.com/bins/17ge17)
+1. We should first hit the API do get the collections (https://s3-us-west-2.amazonaws.com/mob3/image_collection.json)
 2. The json response has an array of collection with a url to a zip file for each collection.
 3. We want to download the zip files and unzip them to a temporary store.
 4. We want to display the preview images (_preview.png) and the name of the collection in a list
@@ -13,7 +13,7 @@ We are given a contract to develop an MVP for a image viewing app. The app shoul
 
 ## Milestones
 
-- [x] Download the collections from this url. https://api.myjson.com/bins/17ge17
+- [x] Download the collections from this url. https://s3-us-west-2.amazonaws.com/mob3/image_collection.json
 - [x] Parse the json into models
 - [x] Download the zip files from the models
 - [x] Unzip the zip files containing the images into a temporary store
