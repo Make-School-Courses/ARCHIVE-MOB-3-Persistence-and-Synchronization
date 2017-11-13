@@ -20,9 +20,8 @@ Clone the this repo:
 
 [MakeInventory CoreData App Starter](https://github.com/Product-College-Labs/MakeInventory)
 
-**And:
+**And:**
 
 1. Add the date the inventory was entered to the Inventory model and display it.
 2. Edit an inventory item and save the changes.
 3. Add way to delete an inventory item.
-4. 
