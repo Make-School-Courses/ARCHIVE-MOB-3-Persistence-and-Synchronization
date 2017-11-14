@@ -45,20 +45,14 @@ All students must build:
 
 - #### Week 4
     - [CoreData - Intro](05-Intro-to-CoreData)
-    - [CoreData - NSManagedObject, NSManagedObjectContext](04-CoreData-NSManagedObject)
-    - [CoreData - Fetching Persisted Data](05-Intro-to-CoreData)
+    - [CoreData - Relationships](08-CoreData-Relationships)
 
 - #### Week 5
     - [Project - Shared Notes](08-Project-Shared-Notes)
-    - [Getting started in Ruby](10-Basic-Ruby)
-    - [Intro to Backend in Ruby on Rails](11-Intro-To-Ruby-On-Rails)
-    - [Model View Controller in Rails](12-MVC-in-Rails)
+    - Thanksgiving break, no classes
     
 - #### Week 6
-    - [Models and ActiveRecord](13-Active-Record)
-    - [Controllers and Views](14-Controller-and-Views)
-    - [Dealing with Databases in Rails](02-Intro-to-Database-Design)
-    - [Project Time](08-Custom-Project)
+    - [Project - Shared Notes](08-Project-Shared-Notes)
 
 ## Evaluations
 
@@ -66,4 +60,3 @@ To pass the course, students will have:
 
     1. Completed all challenges.
     2. Completed the (2) class projects
-    3. Completed your custom project
