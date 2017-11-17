@@ -41,3 +41,11 @@ Lets model a shopping cart. There will only be one *Cart*. A Cart can have many 
 5. When a user taps the *Add to Cart* button, you add the product to the cart.
 6. When a user taps the Cart button, it displays the cart with all the *products*.
 7. Make sure to save the cart every time a new item is added to it. If the app is closed and opened, the *products* in the cart should persist.
+
+**Favorites:**
+Lets create a User. A "logged in" *User* will have only one cart. You can add products to this cart. 
+We will also have favorites, a "logged in user" can favorite many products.
+
+8. Create a *User* NSManagedObject.
+9. There should be only one instance of a user in your app.
+10. Add a favorites tab. Users can *favorite* products, and that will appeart on the favorites tab.
