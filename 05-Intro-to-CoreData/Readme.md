@@ -49,3 +49,7 @@ We will also have favorites, a "logged in user" can favorite many products.
 8. Create a *User* NSManagedObject.
 9. There should be only one instance of a user in your app.
 10. Add a favorites tab. Users can *favorite* products, and that will appeart on the favorites tab.
+
+*Sample App Image*
+
+![App Sample](sample.jpeg)
