@@ -30,7 +30,9 @@ Clone the this repo:
 3. Add way to delete an inventory item.
 
 **Extra:**
+
 Lets model a shopping cart. There will only be one *Cart*. A Cart can have many *Products*. *Products* can belong to only one *Cart*.
+
 
 1. Create a *Products* and *Cart* entity
 2. Create the one-to-many and one-to-one relationships between the entities.
