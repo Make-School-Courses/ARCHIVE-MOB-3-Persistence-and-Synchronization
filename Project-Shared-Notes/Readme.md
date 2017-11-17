@@ -10,4 +10,4 @@ For this project we are going to extent the MakeSchool notes app. We will add Us
 - [x] Authentication
 - [x] Ability to share notes with a User
 - [x] Ability to share notes with multiple User
-- [x] Cache notes locally on device. When there is no internet connection, fetch from the cache. s
+- [x] Cache notes locally on device. When there is no internet connection, fetch from the cache.
