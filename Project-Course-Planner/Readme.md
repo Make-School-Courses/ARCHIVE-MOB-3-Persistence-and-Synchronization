@@ -60,4 +60,3 @@ The interface is up to you to decide. I have provided a sample design, but you a
 - Add a button to sort the notes of a session by date(asending/decending) order.
 - Project reminder; send a local notification a few hours before a project is due.
 - Use a markdown parser to find the course page for each class(on github) and display it as Syllabus.
-- Share Course Notes from one device to another using bluetooth
