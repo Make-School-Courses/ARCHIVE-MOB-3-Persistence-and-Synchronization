@@ -48,11 +48,11 @@ All students must build:
     - [CoreData - Relationships](08-CoreData-Relationships)
 
 - #### Week 5
-    - [Project - Shared Notes](08-Project-Shared-Notes)
+    - [Project - Shared Notes](Project-Course-Planner)
     - [CoreData - Contexts](09-CoreData-Contexts)
     
 - #### Week 6
-    - [Project - Shared Notes](08-Project-Shared-Notes)
+    - [Project - Shared Notes](Project-Course-Planner)
 
 ## Evaluations
 
