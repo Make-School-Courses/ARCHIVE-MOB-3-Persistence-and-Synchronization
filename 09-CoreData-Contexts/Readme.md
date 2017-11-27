@@ -28,11 +28,11 @@ Since fetching from the main context, all objects retrieved will be associated w
 **Option 1: Changing Contexts**
 1. Grab the objectID from the ManagedObject. 
 ```swift
-let objectID = myMangedObject.objectID
+let objectID = myManagedObject.objectID
 ```
-2. Fetch the same ManagedObject from the background MangedObjectContext.
+2. Fetch the same ManagedObject from the background ManagedObjectContext.
 ```swift
-let myBackgroundMangedObject = coreDataStack.privateContext.object(with: objectID)
+let myBackgroundManagedObject = coreDataStack.privateContext.object(with: objectID)
 ```
 3. Do any modifications to your ManagedObject
 4. Perform a save on the privateContext

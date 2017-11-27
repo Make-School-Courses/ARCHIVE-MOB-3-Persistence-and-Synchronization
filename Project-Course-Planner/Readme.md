@@ -1,9 +1,11 @@
 # Project - Course Planner
 
 We will be building an app to help students manage courses they are taking.
-As a user, I should be able to add a new course with a name and times classes occur(MWF).
+As a user, I should be able to add a new course with a name and times classes occur(MWF). Course can have many **Projects**.
+
 I should be able to add sessions to a class. Sessions are occurrences of a course(class).
-Course Sessions can have many **Projects** and **Notes**. I can view the list of my notes for a particular class session, I can also add new notes.
+Course Sessions can have many **Notes**. I can view the list of my notes for a particular class session, I can also add new notes.
+
 I can view a list of my projects and add new projects with a name, due date and completions status(done or not done).
 
 
@@ -33,10 +35,10 @@ Your code will be examined on these categories:
     - Name
     - Meeting times (Monday, Wednesday, Friday(MWF) etc..)
     - Has many sessions
+    - Has many Projects
 - Session
     - Belongs to a Course
     - Has many Notes
-    - Has many Projects
 - Note
     - Belongs to a Session
 - Project
