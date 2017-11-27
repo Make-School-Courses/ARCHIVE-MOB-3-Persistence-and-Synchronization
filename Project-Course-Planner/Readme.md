@@ -23,12 +23,13 @@ I can view a list of my projects and add new projects with a name, due date and 
 You know how to store trivial information in Core Data. The purpose of this project is for you to develop a professional working application with Core Data. Think about your architectural choices and focus on code quality. 
 
 Your code will be examined on these categories:
-    - Code modularizaton
-    - Commenting Code
-    - The use of simple abstractions
-    - Use of the Core Data Stack
-    - Performance of code
-    - Swift style guide & Tools (Protocols, Enums etc)
+
+- Code modularizaton
+- Commenting Code
+- The use of simple abstractions
+- Use of the Core Data Stack
+- Performance of code
+- Swift style guide & Tools (Protocols, Enums etc)
 
 ## Entities
 - Course
