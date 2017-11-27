@@ -11,11 +11,11 @@ I can view a list of my projects and add new projects with a name, due date and 
 
 **Gist of Requirements**
 
-Sessions are occurences of Courses.
-Course can have many sessions. 
-Course Session can have many notes attached.
-Courses can have many Projects.
-Projects can be marked as completed or not and have a due date.
+- Sessions are occurences of Courses.
+- Course can have many sessions. 
+- Course Session can have many notes attached.
+- Courses can have many Projects.
+- Projects can be marked as completed or not and have a due date.
 
 
 ### Code Quality Requirements
