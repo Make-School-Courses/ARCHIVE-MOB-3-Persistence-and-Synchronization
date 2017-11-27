@@ -49,7 +49,7 @@ All students must build:
 
 - #### Week 5
     - [Project - Shared Notes](08-Project-Shared-Notes)
-    - Thanksgiving break, no classes
+    - [CoreData - Contexts](09-CoreData-Contexts)
     
 - #### Week 6
     - [Project - Shared Notes](08-Project-Shared-Notes)
