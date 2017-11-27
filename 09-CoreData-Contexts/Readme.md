@@ -11,6 +11,10 @@
 
 ManagedObjectContexts are not threadsafe. We have to use them with caution when concurrency is at play.
 
+If we have multiple threads(main and some background thread for example) access the same ManagedObjects, we should have consistent behavior.
+
+**Recomended Use of Contexts**
+
 We use the main context for interacting with core data on the application's view layer.
 But complex operation such as saving multiple ManagedObjects in core data take a long time and hence will block the main thread(if using main context).
 
@@ -55,6 +59,13 @@ privateMOC.performBlock {
     privateMox.save()
 }
 ```
+
+#### Contexts & Saves
+
+*Notes*
+When you save on the child context, changes don't persist until a save happens on the parent context.
+
+![Contexts](contexts.png)
 
 ### Using the private context with the PersistentContainer
 
