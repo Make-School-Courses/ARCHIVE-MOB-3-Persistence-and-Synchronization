@@ -53,7 +53,7 @@ All students must build:
     - [CoreData - NSFetchRequests, NSSortDescriptors & NSFetchedResultsController](10-CoreData-NSFetchRequests-NSSortDescriptors-NSFetchedResultsController)
     
 - #### Week 6
-    - [Realm - Intro](09-Realm-Intro)
+    - [Realm - Intro](11-Realm-Intro)
     - [Project - Course Planner](Project-Course-Planner)
 
 ## Evaluations
