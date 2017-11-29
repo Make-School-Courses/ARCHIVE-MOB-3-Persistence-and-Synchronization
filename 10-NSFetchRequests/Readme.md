@@ -3,14 +3,15 @@
 ## Objectives
 
 - Fetch data from Core Data with NSFetchedRequest
-- Filter through data stored in Core Data with Predicates
-
+- Filter through data stored in Core Data with NSPredicate
+- Sort data with NSSortDescriptor
+- Fetch and display data with NSFetchedResultsController
 
 ## Predicates
 
 Provides an interface for querying much like a mixture of sql and a regular expression
 
-**Example: **
+**Example**
 
 ```swift
 
@@ -25,7 +26,7 @@ fetchRequest.predicate = NSPredicate(format: "firstName == %@", firstName)
 1. Simple Comparison Operators
 We can use ```>, <, >=, <=, ==, !=```
 
-**Example: **
+**Example**
 
 *Simple Comparison*
 ```swift
@@ -46,16 +47,17 @@ let pred = NSPredicate(format: "name like John OR age == 5")
 *Filter with a list*
 
 ```swift
+// Will yield any results containing the name Apples and Mango
+
 let pred = NSPredicate(format: "name in %@", ["Apples", "Mango"])
 ```
 
-Will yield any results containing the name Apples and Mango
 
 2. Format
 
 %i is for substituting integers, %@ is for substituting strings
 
-** Example: **
+** Example**
 
 *Strings*
 ```swift
@@ -63,6 +65,7 @@ let pred = NSPredicate(format: "quantity > %i", 4)
 ```
 
 *Numbers*
+
 ```swift
 let pred = NSPredicate(format: "name == %@", "Eliel")
 ```
@@ -128,16 +131,6 @@ fetchedResultsController.delegate = self
 ```
 
 6. Implement NSFetchedResultsControllerDelegate (Optional)
-
-```swift
-func controllerWillChangeContent(_ controller: NSFetchedResultsController<NSFetchRequestResult> {
-    tableView.beginUpdates()
-}
-
-func controllerDidChangeContent(_ controller: NSFetchedResultsController<NSFetchRequestResult>) {
-    tableView.endUpdates()
-}
-```
 
 7. UITableView/UICollectionView number of rows in section and cellForRow change to use fetched results
 
