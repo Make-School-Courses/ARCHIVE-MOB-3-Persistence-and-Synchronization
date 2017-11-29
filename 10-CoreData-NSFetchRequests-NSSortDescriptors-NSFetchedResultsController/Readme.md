@@ -1,4 +1,4 @@
-# NSFetchRequests
+# NSFetchRequests, NSSortDescriptors & NSFetchedResultsController
 
 ## Objectives
 
@@ -53,11 +53,11 @@ let pred = NSPredicate(format: "name in %@", ["Apples", "Mango"])
 ```
 
 
-2. Format
+2. Formating
 
 %i is for substituting integers, %@ is for substituting strings
 
-** Example**
+**Example**
 
 *Strings*
 ```swift
