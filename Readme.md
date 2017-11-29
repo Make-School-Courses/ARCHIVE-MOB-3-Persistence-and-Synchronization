@@ -50,7 +50,7 @@ All students must build:
 - #### Week 5
     - [Project - Course Planner](Project-Course-Planner)
     - [CoreData - Contexts](09-CoreData-Contexts)
-    - [CoreData - NSFetchRequests, NSSortDescriptors & NSFetchedResultsController](10-CoreData-NSFetchRequests-NSSortDescriptors)
+    - [CoreData - NSFetchRequests, NSSortDescriptors & NSFetchedResultsController](10-CoreData-NSFetchRequests-NSSortDescriptors-NSFetchedResultsController)
     
 - #### Week 6
     - [Project - Course Planner](Project-Course-Planner)
