@@ -70,3 +70,10 @@ let inventories = realm
                     .filter("quantity > 5")
 
 let arrayInventory = Array(inventories)
+
+
+## Challenges
+
+Clone this repo and integrate realm:
+
+[TriviaTime Starter](https://github.com/Product-College-Labs/TriviaTime)

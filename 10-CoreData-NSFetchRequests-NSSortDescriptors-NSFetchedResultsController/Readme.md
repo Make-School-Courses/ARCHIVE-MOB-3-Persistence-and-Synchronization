@@ -174,4 +174,5 @@ override func viewWillAppear(_ animated: Bool) {
 ## Resources
 
 [Realm Predicate Cheatsheet](https://academy.realm.io/posts/nspredicate-cheatsheet/)
+
 [NSPredicate](http://nshipster.com/nspredicate/)
