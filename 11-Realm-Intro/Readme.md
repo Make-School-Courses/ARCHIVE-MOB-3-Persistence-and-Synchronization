@@ -5,6 +5,7 @@ Realm is a cross platform database(iOS, Android, Web). It can be used in place o
 ## Installation up Realm
 
 Download Realm here(Manual, Cocoapod, Carthage)
+
 [Realm Download](https://realm.io/docs/swift/latest#installation)
 
 ### Realm
