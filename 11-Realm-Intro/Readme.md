@@ -70,7 +70,7 @@ let inventories = realm
                     .filter("quantity > 5")
 
 let arrayInventory = Array(inventories)
-
+```
 
 ## Challenges
 
