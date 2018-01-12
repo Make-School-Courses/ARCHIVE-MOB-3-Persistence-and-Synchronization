@@ -99,14 +99,13 @@ class Movie: NSObject, NSCoding {
 Archive
 
 ```swift
-NSKeyedArchiver.archiveRootObject(movies, toFile: "/path/to/archive")
+let data = NSKeyedArchiver.archivedData(withRootObject: movie)
 ```
 
 Unarchive
 
 ```
-let unarchivedMovies = NSKeyedUnarchiver.unarchiveObjectWithFile(
-"/path/to/archive") as? [Movie]
+let unarchivedMovies = NSKeyedUnarchiver.unarchiveObject(with: data) as? Movie
 ```
 
 ### When to use NSCoding
@@ -119,9 +118,7 @@ etc, there are better solutions (e.g., CoreData)
 
 ## Challenges
 
-1. 
-
-Interate Cocoapods into a project(Trip Planner)
+1. Interate Cocoapods into a project(Trip Planner)
 Download KeychainSwift though cocoapods to use the keychain:
 
 [KeychainSwift Link](https://github.com/evgenyneu/keychain-swift#keychain_access_groups)
