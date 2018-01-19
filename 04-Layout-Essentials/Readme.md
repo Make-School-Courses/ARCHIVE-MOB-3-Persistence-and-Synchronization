@@ -1,4 +1,4 @@
-# Layout Essentials 
+# Layout Essentials
 
 ## Objectives
 
@@ -22,7 +22,7 @@ They are composed of a:
 
 #### Constant
 A constant offset
-    
+
 #### Priority
 This is how important a containt is in relation to other constraints.
 When you set this value to 1000, you are telling autolayout that this constraint is required. If autolayout cannot satify the constraint, it thows an error by breaking or excluding the constraint.
@@ -38,7 +38,7 @@ UIImageView's height constraint is = 0.75 * height of superview + 0 constant
 ## Content Sizing
 ### Intrinsic Content Size
 Intrinsic content size is information that a view has about how big it should be based on what it displays.
-An example is a UIImageView knows how big it should be based on the image it contains. 
+An example is a UIImageView knows how big it should be based on the image it contains.
 A UILabel knows what size it should be based on the text it contains.
 
 The intrinsic content size of an item serves as input to autolayout.
@@ -46,19 +46,19 @@ The intrinsic content size of an item serves as input to autolayout.
 ### Constraint Priority
 Constraints on both the horizontal and vertical axis have a priority attached to them(1000 initially).
 The constraint priorty determine how important a constraint is in relation to other constraints; 1000 is a required constaint where 100 is low priority.
-When there are autolayout conflicts, autolayout uses these values to resolve them. 
+When there are autolayout conflicts, autolayout uses these values to resolve them.
 
 ### Content Hugging Priority(CHP)
 
 This attribute is used when you want a view to resist growing larger than its intrinsic content size.
 
 
-![Content Hugging](content-hugging-priority.png) 
+![Content Hugging](content-hugging-priority.png)
 
 In this example the label's horizontal hugging priority is set to 250 while the Name label's is 251. This allows the textfield to stretch to fill its content before the Name label.
 
 The content of the description also has a vertical priority of 250, while all the other components have 251.
-This makes the content of the description expant to fill the remaining space in the view.
+This makes the content of the description expand to fill the remaining space in the view.
 
 
 ### Content Compression Resistence Priority (CCRP)
@@ -74,10 +74,14 @@ Bold Label CCRP
 ## CHP vs. CCRP
 - You can define both either horizontally or vertically
 
-- Content Compression - View with lower priority loses and grows, views with higher priority shrink
+- Content Compression - View with lower priority loses and grows, views with higher priority shrink to their intrinsic content size.
 
-- Content Compression Resistence Priority - View with higher priority resists being shrunk, views with lower priority shrink first.
+- Content Compression Resistance Priority - View with higher priority resists being shrunk, views with lower priority shrink first.
 
+
+## Content Size Ambuiguity
+
+Xcode throws an error when two or more views have the same CHP or CCRP. To fix this we need to change the CHP or CCRP of one of the views to satisfy the constraints.
 
 ## UIStackView
 Layout mechanism similar to CSS Flexbox
@@ -85,7 +89,7 @@ Better than manual Auto Layout for dynamic layouts
 
 Position of views in UIStackView is determined by:
 - axis: horizontal | vertical
-- distribution: fill | fill equally | fill propriotionally | equal spacing | equal centering
+- distribution: fill | fill equally | fill proportionally | equal spacing | equal centering
 - alignment: center | top | bottom | leading | trailing
 - spacing: 10, 12 etc
 
@@ -96,7 +100,7 @@ UIStackViews to build a layout.
 #### Fill
 
 This is the default distribution type.
-When you insert elements into a UIStackView with the ditribution set to fill, it will keep all but one item at its intrinsic size and strech it to fill the remaining space.
+When you insert elements into a UIStackView with the distribution set to fill, it will keep all but one item at its intrinsic size and stretch it to fill the remaining space.
 It determines the view to fill by the Content Hugging Priority (CHP). The view with the **lowest** CHP is stretched to fill the space in the UIStackView.
 
 If all of your view in the UIStackView have the same CHP, Xcode will show an ambiguous layout error.
@@ -113,7 +117,7 @@ Banana Content Hugging Priority
 ![Fill Distribution Priority](fill-dist-priority.png)
 Banana has a CHP of 250, Apples and Oranges have 251
 
-#### Fill Equally 
+#### Fill Equally
 
 Each view in the UIStackView will have the equal size. The CHP does not matter with this type of distribution, because the views are of equal size.
 
@@ -140,7 +144,7 @@ It uses the intrinsic size of its views.
 
 #### Equal Centering
 
-This type of distribution will divide the stackview according to the number of elements and place the elements 
+This type of distribution will divide the stackview according to the number of elements and place the elements
 
 **Benefits**
 
