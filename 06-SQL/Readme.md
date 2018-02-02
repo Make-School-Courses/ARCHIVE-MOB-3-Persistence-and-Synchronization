@@ -44,9 +44,8 @@ select * from products where name='Coke'
 select * from products where id<=2
 ```
 
-## 
 
-Often times we need data from two or more tables. Joins are a way to achieve this. 
+Often times we need data from two or more tables. Joins are a way to achieve this.
 
 There are 4 main types of JOINS.
 
@@ -62,5 +61,3 @@ There are 4 main types of JOINS.
 ## Resources
 
 [SQL Tutorials - W3School](https://www.w3schools.com/sql/)
-
-
