@@ -12,6 +12,7 @@
 - Object Graph
 - Queries
 - NSManagedObject
+- NSEntityDescription
 - NSManagedObjectContext
 - NSPersistentStoreCoordinator
 - NSPersistentStore
@@ -43,7 +44,7 @@ Lets model a shopping cart. There will only be one *Cart*. A Cart can have many 
 7. Make sure to save the cart every time a new item is added to it. If the app is closed and opened, the *products* in the cart should persist.
 
 **Favorites:**
-Lets create a User. A "logged in" *User* will have only one cart. You can add products to this cart. 
+Lets create a User. A "logged in" *User* will have only one cart. You can add products to this cart.
 We will also have favorites, a "logged in user" can favorite many products.
 
 8. Create a *User* NSManagedObject.
