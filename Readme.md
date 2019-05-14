@@ -1,4 +1,6 @@
-# MOB3 Persistence & Synchronization
+# ARCHIVE - MOB3 Persistence & Synchronization
+
+## NOTE: This repo is no longer maintained      
 
 ## Course Overview
 
